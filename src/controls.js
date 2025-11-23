@@ -25,8 +25,8 @@ window.addEventListener('keyup', (e) => {
 });
 
 const rotationSpeed = 0.02;
-const speed = 0.05;
-const boostSpeed = 0.1;
+const speed = 0.03;
+const boostSpeed = 0.06;
 
 export function updatePlaneAxis(x, y, z, planePosition, camera) {
     // Speed
